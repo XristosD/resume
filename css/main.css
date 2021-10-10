@@ -288,6 +288,7 @@ i {
 }
 
 .float {
+  font-family: var(--body-font);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +310,7 @@ i {
 
 @media screen and (min-width: 992px) {
   .float {
-    width: 8rem;
+    width: 9rem;
     bottom: 1rem;
     right: 50vw;
   }
