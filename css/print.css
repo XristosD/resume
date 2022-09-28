@@ -1,0 +1,33 @@
+html {
+  font-size: 8px;
+}
+
+.container {
+  width: 100%;
+}
+
+.communications-inner-container {
+  width: 100%;
+}
+
+.fa-stack {
+  font-size: 0.51em;
+  line-height: 2.1em;
+}
+
+.empty-circle {
+  margin: 0 1px;
+}
+
+.float {
+  display: none;
+}
+.main-container {
+  position: relative;
+  display: block;
+}
+.section {
+  position: relative;
+  page-break-inside: avoid;
+  padding-bottom: 3rem;
+}

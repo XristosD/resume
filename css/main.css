@@ -133,13 +133,13 @@ a:hover {
   font-size: 1.5rem;
 }
 
-@media screen and (min-width: 576px) {
+@media print, screen and (min-width: 576px) {
   .title {
     font-size: 2rem;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media print, screen and (min-width: 768px) {
   .title {
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
@@ -168,7 +168,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media print, screen and (min-width: 992px) {
   .title {
     font-size: 3rem;
     font-weight: 700;
@@ -261,7 +261,7 @@ main {
   margin: 0;
 }
 
-i {
+.fa-stack i {
   vertical-align: middle;
 }
 
@@ -302,13 +302,15 @@ i {
   border-radius: 50px;
   margin-left: auto;
   box-shadow: 2px 2px 3px #999;
+  border: none;
+  cursor: pointer;
 }
 
 .float span {
   display: none;
 }
 
-@media screen and (min-width: 992px) {
+@media print, screen and (min-width: 992px) {
   .float {
     width: 9rem;
     bottom: 1rem;
