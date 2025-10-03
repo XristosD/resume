@@ -1,0 +1,11 @@
+[
+  { "title": "LARAVEL", "grade": 5 },
+  { "title": "DRUPAL", "grade": 4 },
+  { "title": "PHP", "grade": 5 },
+  { "title": "SQL", "grade": 4 },
+  { "title": "GIT", "grade": 4 },
+  { "title": "HTML, CSS", "grade": 5 },
+  { "title": "JAVASCRIPT", "grade": 4 },
+  { "title": "TAILWIND, BS", "grade": 4 },
+  { "title": "PYTHON", "grade": 4 }
+]
