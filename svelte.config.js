@@ -7,7 +7,11 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			fallback: '404.html'
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/resume'
