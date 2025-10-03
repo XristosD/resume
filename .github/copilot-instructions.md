@@ -1,0 +1,1 @@
+This is a svelte 5 project. Do not suggest code that is not compatible with svelte 5.
